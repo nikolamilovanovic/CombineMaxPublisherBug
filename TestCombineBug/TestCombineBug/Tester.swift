@@ -9,10 +9,6 @@ import Foundation
 import Combine
 import SwiftUI
 
-enum SomeError: Error {
-    case some
-}
-
 final class Tester: ObservableObject {
     
     private let subject1 = PassthroughSubject<Int, Never>()
